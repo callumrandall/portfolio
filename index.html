@@ -1,0 +1,314 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Callum Randall Portfolio</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio">
+    <meta name="author" content="Callum Randall">    
+    <link rel="shortcut icon" href="favicon.ico">  
+    
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> 
+    
+    <!-- FontAwesome JS -->
+    <script defer src="assets/fontawesome/js/all.js"></script>
+    
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">  
+    
+    <!-- github calendar css -->
+    <link rel="stylesheet" href="assets/plugins/github-calendar/dist/github-calendar-responsive.css">
+    <!-- github activity css -->  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">  
+    <link rel="stylesheet" href="assets/plugins/github-activity/src/github-activity.css">
+
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+    
+</head> 
+
+<body>
+    <!-- ******HEADER****** --> 
+    <header class="header">
+        <div class="container">     
+	        <div class="row align-items-center">
+			    <div class="col">         
+		            
+		            <div class="profile-content">
+		                <h1 class="name">Callum Randall</h1>
+		                <h2 class="desc">Programmer</h2>   
+		                <ul class="social list-inline">
+		                    <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+		                    <li class="list-inline-item"><a href="#"><i class="fab fa-github-alt"></i></a></li>    
+		                </ul> 
+		            </div><!--//profile-->
+			    </div><!--//col-->
+	            <div class="col-12 col-md-auto">
+		            <div class="dark-mode-switch d-flex">
+						<div class="form-check form-switch mx-auto mx-md-0">
+							<input type="checkbox" class="form-check-input me-2" id="darkSwitch" />
+							<label class="custom-control-label" for="darkSwitch">Dark Mode</label>
+						</div>
+			        </div><!--//dark-mode-switch-->
+	            </div><!--//col-->
+	        </div><!--//row-->         
+        </div><!--//container-->
+    </header><!--//header-->
+    
+    <div class="container sections-wrapper py-5">
+        <div class="row">
+            <div class="primary col-lg-8 col-12">
+                <section class="about section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">About Me</h2>
+                        <div class="content">
+                            <p>
+                                Hello! My name is Callum and I am currently aspiring to be a game developer. I have finished studying a master's in Computer Science with a Game Engineering specialism at Newcastle University and achieved first class honours. This page will include projects that I have worked on in the past with videos and repos too.
+                            </p>
+                            <p>
+                                My other hobbies outside of programming include playing video games, such as new and old single player games and some competitive esports games too.
+                                I have played Dota 2 in various university tournaments but also attended an online ESL UK tournament and was a player in a semi-pro team with a sponsored organisation for some time.
+                                I'm interested in sports too, such as F1 but mostly football where I support Newcastle United.
+                                I also spend a lot of time finding and listening to music and go to concerts regularly.
+
+                            </p>
+
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </section><!--//section-->
+
+                <section class="latest section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">My Projects</h2>
+                        <div class="content">
+
+                            <div class="item row">
+                                <div class="desc col-md-8 col-12" style="width:100%;">
+                                    <img class="img-fluid project-image rounded shadow-sm"
+                                         src="assets/images/roofVS.png" alt="Summer Project 2022" />
+                                    <h3 class="title"><a target="_blank">Master's Dissertation - Temporal Reprojection Anti-Aliasing</a></h3>
+                                    <p class="mb-2">
+                                        For my final dissertation in stage four, I researched and implemented a temporal reprojection anti-aliasing method.
+                                        This included researching techniques such as temporal reprojection, history rectification through neighbourhood clipping
+                                        and projection matrix jittering.
+                                    </p>
+                                    <p class="mb-2">
+                                        The final product was implemented in Unity engine using a script that can be attached to a camera object. The effect
+                                        can be toggled in order to see the visual impact on the scene. Testing and evaluation showed that the implementation
+                                        had a minimal and reasonable performance cost.
+                                    </p>
+                                    <p class="mb-2">
+                                        The repo for the project is available below and contains the code with a demo scene for Unity and also the dissertation itself.
+                                    </p>
+                                    <p>
+                                        <a class="more-link" target="_blank"
+                                           href="https://github.com/callumrandall/taadissertation">
+                                            <i class="fas fa-external-link-alt"></i>GitHub Repo
+                                        </a>
+                                    </p>
+
+                                </div>
+                                <!--//desc-->
+                            </div>
+
+                            <div class="videoWrapper">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/d6FD3W4Y2Nk">
+                                </iframe>
+                            </div>
+
+                            <div class="item row">
+                                <div class="desc col-md-8 col-12" style="width:100%;">
+                                    <h3 class="title">
+                                        <a target="_blank">
+                                            Spitoon - Master's Team Project
+                                        </a>
+                                    </h3>
+                                    <p class="mb-2">
+                                        In the master's team project module, we were tasked to create a paint shooter game like Splatoon for the PC and PS4.
+                                        This video shows the final product created within a custom
+                                        OpenGL framework provided by Newcastle University.
+                                    </p>
+                                    <p class="mb-2">
+                                        The aim of the game is to cover more paint on the ground than your opponent, there are power ups to pick up and
+                                        a roaming AI robot that cleans up paint in certain areas. If you have covered more area in paint than your opponent by the end you win.
+                                    </p>
+                                    <p class="mb-2">
+                                        My contributions towards the project were creating the level that the game takes place on, including handling importing assets into the engine
+                                        and creating a framework of the level in Unity in order to help create a navigation mesh that would allow
+                                        the robot to properly move around the map without falling off and properly locating paint. I also did general
+                                        code reviewing and bug fixing to help the team.
+                                    </p>
+
+                                </div>
+                                <!--//desc-->
+                            </div>
+                        </div>
+                    </div><!--//section-inner-->
+                </section><!--//section-->
+
+            </div><!--//primary-->
+            <div class="secondary col-lg-4 col-12">
+                <aside class="info aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading sr-only">Basic Information</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-map-marker-alt"></i><span class="sr-only">Location:</span>Newcastle/Northumberland, UK</li>
+                                <li><i class="fas fa-envelope"></i><span class="sr-only">Email:</span><a href="#">callumrandall1@gmail.com</a></li>
+                                <li><i class="fas fa-link"></i><span class="sr-only">Website:</span><a href="#">https://www.website.com</a></li>
+                            </ul>
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//aside-->
+
+                <aside class="skills aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Skills</h2>
+                        <div class="content">
+                            <p class="intro">
+                                <ul>
+                                    <li>C++ (2 Years)</li>
+                                    <li>C# (2 Years)</li>
+                                    <li>Java (4 Years)</li>
+                                    <li>Unity Engine (2 Years)</li>
+                                    <li>Some experience with Unreal Engine</li>
+                                    <li>Microsoft Office and Teams</li>
+                                    <li>Problem Solving</li>
+                                    <li>Team Player</li>
+                                    <li>Fast Learner</li>
+                                    <li>Time Management</li>
+                                    <li>Website Development</li>
+                                    <li>Communication</li>
+                                </ul>
+                            <p>
+                        </div>
+                    </div><!--//content-->
+                </aside>
+
+                <aside class="education aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Education</h2>
+                        <div class="content">
+                            <div class="item">
+                                <h3 class="title"><i class="fas fa-graduation-cap"></i> MComp Computer Science Game Engineering</h3>
+                                <h4 class="university">Newcastle University <span class="year">(2018-2022) 72.3% overall</span></h4>
+                                <h4 class="title">Modules Studied</h4>
+                                <h4 class="university">
+                                    Stage 4: • Advanced Programming for Games • Advanced Graphics for Games • Advanced Game
+                                    Technologies • Engineering Gaming Solutions within a Team • Security Analysis of Complex Systems • Project and Dissertation for MComp
+                                </h4>
+                                <h4 class="university">
+                                    Stage 3: • Programming for Games • Graphics for Games • Gaming Simulations • Computer Games Development • Distributed Systems • Web Technologies • Understanding Concurrency • Reliability and Fault Tolerance • Project and Dissertation in Computer Science
+                                </h4>
+
+                                <h4 class="university">
+                                    Stage 2: • Software Engineering • Software Engineering Team Project • Algorithm Design and Analysis • Database Technology • Operating Systems • Computer Networks
+                                </h4>
+
+                                <h4 class="university">
+                                    Stage 1: • Programming 1 • Programming 2 • The Software Engineering Professional • Computer Architecture • Mathematics for Computer Science • Website Design and Construction
+                                </h4>
+                            </div>
+                            <!--//item-->
+
+                        </div>
+                        <!--//content-->
+                    </div>
+                    <!--//section-inner-->
+                </aside>
+
+
+                <aside class="skills aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">My favourite games that inspire me.</h2>
+                        <div class="content">
+                            <p class="intro">
+                                <ul>
+                                    <li>Bloodborne</li>
+                                    <li>Outer Wilds</li>
+                                    <li>Disco Elysium</li>
+                                    <li>The Legend of Zelda: Breath of the Wild</li>
+                                    <li>Fallout: New Vegas</li>
+                                    <li>Dota 2</li>
+                                    <li>The Last of Us Part 2</li>
+                                    <li>Red Dead Redemption 2</li>
+                                    <li>Sekiro: Shadows Die Twice</li>
+                                    <li>Silent Hill 2</li>
+                                </ul>
+                            <p>
+                        </div>
+                    </div><!--//content-->
+                </aside>
+
+                <aside class="list music aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Current songs on repeat.</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li>
+                                    <i class="fas fa-headphones"></i> <a href="https://www.youtube.com/watch?v=yjC4qXiBRu4">
+                                        Black Country, New Road - Concorde
+                                    </a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-headphones"></i> <a href="https://www.youtube.com/watch?v=Efmq_uXt1Rk">
+                                        black midi - Welcome To Hell
+                                    </a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-headphones"></i> <a href="https://www.youtube.com/watch?v=RnatkV_92Bw">
+                                        Big Thief - Simulation Swarm
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <i class="fas fa-headphones"></i> <a href="https://www.youtube.com/watch?v=fOO1mWLGhh8">
+                                        Denzel Curry - Walkin
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <i class="fas fa-headphones"></i> <a href="https://www.youtube.com/watch?v=pllRW9wETzw">
+                                        Kate Bush - Cloudbusting
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--//content-->
+                    </div>
+                    <!--//section-inner-->
+                </aside>
+                <!--//section-->
+            </div><!--//section-inner-->
+
+
+        </div><!--//secondary-->    
+        </div><!--//row-->
+    </div><!--//masonry-->
+    
+    <!-- ******FOOTER****** --> 
+    <footer class="footer">
+        <div class="container text-center">
+                <!--/* This template is free as long as you keep the attribution link below. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com */-->
+                <small class="copyright">Designed with <span class="sr-only">love</span><i class="fas fa-heart"></i> by <a href="https://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
+        </div><!--//container-->
+    </footer><!--//footer-->
+ 
+    <!-- Javascript -->          
+    <script type="text/javascript" src="assets/plugins/popper.min.js"></script> 
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>    
+    <script type="text/javascript" src="assets/plugins/vanilla-rss/dist/rss.global.min.js"></script> 
+    <script type="text/javascript" src="assets/plugins/dark-mode-switch/dark-mode-switch.min.js"></script> 
+    <!-- github calendar plugin -->
+    <script type="text/javascript" src="assets/plugins/github-calendar/dist/github-calendar.min.js"></script>
+    <!-- github activity plugin -->
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/github-activity/src/github-activity.js"></script>
+    <!-- custom js -->
+    <script type="text/javascript" src="assets/js/main.js"></script>            
+</body>
+</html> 
+
